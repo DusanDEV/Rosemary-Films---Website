@@ -1,0 +1,387 @@
+/*Designed & Coded: Dusan Stanojkovic*/
+/*https://www.dusanstanojkovic.com*/
+
+@font-face {
+    src: url('../fonts/Monotype\ Corsiva.ttf');
+    font-family: 'Corsiva';
+}
+
+@font-face {
+    src: url('../fonts/Raleway-Regular.ttf');
+    font-family: 'Rale';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+.container {
+    width: 70%;
+}
+
+.language {
+    background-color: #000;
+    display: inline-block;
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+}
+
+.language-content a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.language-content span {
+    color: #fff;
+    margin: 0 10px 0 10px;
+}
+
+a.activeon {
+    color: red;
+}
+
+.language-content a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 60px;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar li {
+    font-family: 'corsiva';
+    font-size: 24px;
+}
+
+.zaglavlje {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h1 {
+    font-family: 'rale';
+    text-align: center;
+    padding: 40px 0 60px 0;
+}
+
+h2 {
+    font-family: 'rale';
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.col-md-12 p {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'rale';
+    font-size: 18px;
+    padding-bottom: 100px;
+}
+
+.wrapper {
+    height: 400px;
+    width: 100%;
+    background: url('../images/wrap.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.films {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.films img {
+    filter: grayscale(1);
+    transition: 0.4s all;
+    padding-top: 30px;
+}
+
+.films img:hover {
+    filter: grayscale(0);
+}
+
+.films p {
+    padding-top: 20px;
+    font-family: 'rale';
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+}
+
+.slideshow {
+    padding-bottom: 100px;
+}
+
+#submit {
+    background-color: #000;
+    border: 0;
+}
+
+.kontakt {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.big-title {
+    padding-bottom: 20px;
+}
+
+.kontakt h2 {
+    text-align: left;
+
+}
+
+.instagram-feed h2 {
+    padding-bottom: 100px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+
+.footer p {
+    font-family: 'rale';
+    font-size: 18px;
+    text-align: center;
+    padding-top: 41px;
+}
+
+/*FILMS CSS*/
+.films-page {
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.films-page img {
+    padding-bottom: 30px;
+}
+
+/*FILMS CSS END*/
+
+/*FILMS CUSTOM PAGE*/
+.photo-big {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.custom-wedding-content {
+    padding-bottom: 100px;
+}
+
+.photos {
+    padding-bottom: 100px;
+}
+
+/*FILMS CUSTOM PAGE END*/
+/*PHOTOGRAPHY*/
+.fotorama {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*PHOTOGRAPHY END*/
+
+/*ABOUT ME*/
+
+.about {
+    padding-bottom: 100px;
+}
+
+.about img {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    display: block;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.about-content p {
+    text-align: justify;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.contact {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact-information {
+    padding-top: 100px;
+}
+
+.contact-information .col-md-3 {
+    display: inline-grid;
+    justify-items: center;
+}
+
+.contact-information .col-md-3 a {
+    font-size: 70px;
+    color: #000;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.contact-information .col-md-3 a:hover {
+    color: red;
+}
+
+/*ABOUT ME END*/
+
+
+
+@media screen and (max-width: 480px) {
+    .logo {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    .zaglavlje {
+        padding: 50px 0 50px 0;
+    }
+
+    h1 {
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+
+    .col-md-12 p {
+        width: 80%;
+        padding-bottom: 30px;
+    }
+
+    .films {
+        padding: 50px 0 50px 0;
+    }
+
+    .films h2 {
+        padding: 30px 0 30px 0;
+    }
+
+    .slideshow {
+        padding: 0;
+    }
+
+    .contact-form {
+        padding: 50px 0 10px 0;
+    }
+
+    .contact-form h2 {
+        padding: 0;
+    }
+
+    .instagram-feed h2 {
+        padding: 0 0 50px 0;
+    }
+
+    .films-page {
+        padding: 50px 0 0 0;
+    }
+
+    .fotorama {
+        padding: 50px 0 0 0;
+    }
+
+    .about {
+        padding-bottom: 50px;
+    }
+
+    .about img {
+        padding: 50px 0 50px 0;
+    }
+
+    .about-content h3 {
+        padding-bottom: 50px;
+        padding-left: 20px;
+    }
+
+    .about-content p {
+        padding: 0 20px 0 20px;
+        width: 90%;
+    }
+
+    #submit {
+        background-color: #000;
+        border: 0;
+        margin-bottom: 50px;
+    }
+
+    .kontakt {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .big-title {
+        padding-bottom: 20px;
+    }
+
+    .contact {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .contact-information {
+        padding-top: 0;
+    }
+
+    .contact-information .col-md-3 {
+        display: inline-grid;
+        justify-items: center;
+    }
+
+    .contact-information .col-md-3 a {
+        font-size: 40px;
+        color: #000;
+        text-decoration: none;
+        transition: all 0.3s;
+    }
+
+    .con {
+        padding-top: 0;
+    }
+
+    .conpad {
+        padding: 0;
+    }
+
+    .language {
+        background-color: #000;
+        display: inline-block;
+        padding: 20px;
+        position: static;
+        top: 0%;
+    }
+
+}
